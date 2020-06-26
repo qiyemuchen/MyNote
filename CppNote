@@ -1,1 +1,26 @@
+数据结构：
+数组：存储相同类型的数据项
+struct:存储不同类型的数据项
+struct type_name {
+member_type1 member_name1;
+member_type2 member_name2;
+member_type3 member_name3;
+} object_names;
+type_name:结构体类型名称;
+object_name：结构体变量;
+member_type1:结构体成员变量类型;
+访问结构体成员：成员访问运算符：（.）
 
+
+STL:
+c++标准模板库,是一套功能强大的c++模板类，提供了通用的模板类和函数，可以实现多种常用的算法和数据结构，如向量、链表、队列、栈；
+核心三大组件：
+容器：用来管理某一类对象的集合，deque,list,vector,map等
+算法：作用于容器，执行各种操作，如对容器初始化、排序、搜索、转换等；
+迭代器：用于遍历对象集合的元素，这些集合可能是容器和容器的子集；
+
+C++ STL 之 vector 的 capacity 和 size 属性区别
+
+size 是当前 vector 容器真实占用的大小，也就是容器当前拥有多少个容器。
+
+capacity 是指在发生 realloc 前能允许的最大元素数，即预分配的内存空间。
